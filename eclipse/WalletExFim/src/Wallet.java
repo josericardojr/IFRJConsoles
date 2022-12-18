@@ -7,7 +7,7 @@ public class Wallet {
 	
 	public Wallet() {
 		money = 0;
-		semaforo = new Semaphore(1);
+		semaforo = new Semaphore(1); 
 	}
 	
 	public int getMoney() { 
